@@ -65,7 +65,7 @@ function writePage() {
     console.log("page code to insert - " + page);
     console.log("alt text to print - " + altText);
     //
-    page = `<img alt="` + altText + `" title="` + altText + `" src="` + path + `" />`;
+    page = `<img class="` + altText + `" title="` + altText + `" src="` + path + `" />`;
     return page;
   } else if (pgData.length >= pg) { //if the array is not blank, and if its at least long enough to have an entry for the current page
 
@@ -76,10 +76,10 @@ function writePage() {
       partExtension = imgPart + i.toString();
       path = (folder != "" ? folder + "/" : "") + image + pg + partExtension + "." + ext; //reinit path (there has to be a less dumb way to do this)
       if (i > 1) {page += `<br/>`} //add line break
-      page += `<img alt="` + altText + `" title="` + altText + `" src="` + path + `" />`; //add page segment
+      page += `<img class="` + altText + `" title="` + altText + `" src="` + path + `" />`; //add page segment
       }
     } else {
-      page = `<img alt="` + altText + `" title="` + altText + `" src="` + path + `" />`;
+      page = `<img class="` + altText + `" title="` + altText + `" src="` + path + `" />`;
     }
     //debug
     console.log("page code to insert - " + page);
