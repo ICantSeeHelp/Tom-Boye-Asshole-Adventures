@@ -229,9 +229,16 @@ header #nav {
   background-color: #7e1616;
   cursor: pointer;
       box-shadow: inset 25px 25px 25px #4d110f;
-    border: groove 5px #c9861a;
+    border: solid 4px #c9861a;
 
 }
+
+.archiveRow {
+        border: groove 4px #1c1c1c;
+
+}
+
+
 
 /* FOOTER */
 footer {
