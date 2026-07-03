@@ -183,6 +183,7 @@ header #nav {
 /* style table in which archive is displayed */
 .archiveTable {
   width: 90%;
+  display: flex;
   border-collapse:collapse;
   color: #ffffff;
 }

@@ -74,7 +74,7 @@ function writeArchive(divClass, min, max, reverseOrder, useThumbs,useNums) {
 
         if (useThumbs) {
             //draw thumbnails if you have thumbnails toggled
-            cellThumb.innerHTML = `<img alt="${pgTitle}" title="${pgTitle}" src="${pgThumb}" onerror="javascript:this.src='${pgThumbDefault}'"/>`;
+            cellThumb.innerHTML = `<img alt="${pgTitle}" title="${pgTitle}" src="${pgThumb}" onerror="javascript:this.src='${pgThumbDefault}'"/> <br>`;
             cellThumb.setAttribute("class", "archiveCellThumb");
         }
 
