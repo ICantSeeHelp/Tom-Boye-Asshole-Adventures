@@ -17,18 +17,18 @@ const maxpg = 263; //the current number of pages your comic has in total. this D
 // COMIC PAGE SETTINGS
 const folder = "img/comics"; //directory of the folder where you keep all the comics
 const image = "pg"; //what you'll name all your comic pages
-const imgPart = "_" //special character(s) you put after the page number to subdivide pages into multiple image files (ie pg2_1, pg2_2, etc)
+const imgPart = "_";//special character(s) you put after the page number to subdivide pages into multiple image files (ie pg2_1, pg2_2, etc)
 const ext = "png"; //file extension of your comic pages
 
 //THUMBNAIL SETTINGS
-const thumbFolder = "img/comics" //directory of the folder where you keep all the thumbnail images for the comics, in case you want the archive page to use thumbnails.
-const thumbExt = "png" //file extension of thumbnails
-const thumbDefault = "default" //name of the default thumbnail that displays when no thumbnail is set, located in the directory you set thumbFolder to.
+const thumbFolder = "img/comics";//directory of the folder where you keep all the thumbnail images for the comics, in case you want the archive page to use thumbnails.
+const thumbExt = "png";//file extension of thumbnails
+const thumbDefault = "default";//name of the default thumbnail that displays when no thumbnail is set, located in the directory you set thumbFolder to.
 
 //NAVIGATION SETTINGS
 const navText = ["First","Previous","Next","Last"]; //alt text for your nav images, or just the text that shows up if you're not using images
 const navFolder = "img/comicnav"; //directory where nav images are stored
-const navExt = "png" //file extension of nav images
+const navExt = "png"; //file extension of nav images
 const navScrollTo = "#showComic"; //id of the div you want the page to automatically scroll to when you click to the next comic. will turn off if you delete text between quotation marks
 
 if (pg == 0) {pg = maxpg;} //display MOST RECENT COMIC when the webpage is loaded. if you want to instead have the FIRST COMIC displayed first, change maxpg to 1.
