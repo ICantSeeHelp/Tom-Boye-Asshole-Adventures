@@ -92,11 +92,15 @@ font-family: 'serif';
 .fanart-container {
   display: flex;
 }
-.left {
-  padding: 20px;}
+.left 
+{
+   padding: 20px;
+}
 
-.right {
-  padding: 20px;}
+.right 
+{
+  padding: 20px;
+}
 
 .subPage:not(.archivePage) {
   text-align: center;
