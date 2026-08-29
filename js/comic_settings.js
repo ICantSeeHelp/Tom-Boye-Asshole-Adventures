@@ -349,9 +349,6 @@ const pgData = [
 { pgNum:294, title:'7-31', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
 { pgNum:295, title:'7-32', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1600px" controls> <source src="img/end7.mp4"> </video> `,altText: '',},
 
-
-
-
 ];
 
 //below is a function you dont rly need to mess with but if you're more experienced with js you can
