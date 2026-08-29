@@ -5,11 +5,11 @@ document.querySelector(".writeHeader").innerHTML = `
         <a href="index.html"><img src="./img/logo.png" alt="" /></a> 
 
         <div id="nav">
-            <a href="index.html">COMIC |</a> 
-            <a href="archive.html">ARCHIVE |</a> 
-            <a href="about.html">ABOUT |</a> 
-            <a href="characters.html">FANART |</a>
-            <a href="https://ko-fi.com/icantseehelp">KOFI |</a>
+            <a href="index.html">COMIC</a>| 
+            <a href="archive.html">ARCHIVE</a>| 
+            <a href="about.html">ABOUT</a>| 
+            <a href="characters.html">FANART</a>|
+            <a href="https://ko-fi.com/icantseehelp">KOFI</a>
         </div>
     </header>
 `;

@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 263; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 295; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -315,6 +315,39 @@ const pgData = [
 { pgNum:261, title:'6-29', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
 { pgNum:262, title:'6-30', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
 { pgNum:263, title:'6-31', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1600px" controls> <source src="img/end6.mp4"> </video> `,altText: '',},
+
+{ pgNum:264, title:'7-1', date: writeDate(2026, 6, 12),imageFiles:2,authorNotes: '',altText: 'Page',},
+{ pgNum:265, title:'7-2', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:266, title:'7-3', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:267, title:'7-4', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:268, title:'7-5', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:269, title:'7-6', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:270, title:'7-7', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:271, title:'7-8', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:272, title:'7-9', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:273, title:'7-10', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:274, title:'7-11', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:275, title:'7-12', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:276, title:'7-13', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:277, title:'7-14', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:278, title:'7-15', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:279, title:'7-16', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:280, title:'7-17', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:281, title:'7-18', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:282, title:'7-19', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:283, title:'7-20', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:284, title:'7-21', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:285, title:'7-22', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:286, title:'7-23', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:287, title:'7-24', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:288, title:'7-25', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:289, title:'7-26', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:290, title:'7-27', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:291, title:'7-28', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:292, title:'7-29', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:293, title:'7-30', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:294, title:'7-31', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
+{ pgNum:295, title:'7-32', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1600px" controls> <source src="img/end7.mp4"> </video> `,altText: '',},
 
 
 

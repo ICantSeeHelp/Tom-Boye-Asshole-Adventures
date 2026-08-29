@@ -18,6 +18,10 @@ writeArchive("chapter5", 186, 232, -1, true,false);
 
 writeArchive("chapter6", 233, 263, -1, true,false);
 
+writeArchive("chapter6", 264, 295, -1, true,false);
+
+
+
 //below this point is stuff you don't really need to pay attention to if you're not super familiar with JS 
 
 function writeArchive(divClass, min, max, reverseOrder, useThumbs,useNums) {
