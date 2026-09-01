@@ -74,7 +74,7 @@ const pgData = [
 { pgNum:25, title:'1-25', date: writeDate(2025, 10, 19),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:26, title:'1-26', date: writeDate(2025, 10, 19),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:27, title:'1-27', date: writeDate(2025, 10, 19),imageFiles:1,authorNotes: '',altText: 'Panel',},
-{ pgNum:28, title:'1-28', date: writeDate(2025, 10, 19),imageFiles:1,  authorNotes: `<video title="oh fuck yes" width="1100px" controls> <source src="img/end.mp4"> </video> `,altText: '',},
+{ pgNum:28, title:'1-28', date: writeDate(2025, 10, 19),imageFiles:1,  authorNotes: `<video title="oh fuck yes" width="1100px" controls> <source src="img/videos/end.mp4"> </video> `,altText: '',},
 
 { pgNum:29, title:'2-1', date: writeDate(2025, 10, 20),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:30, title:'2-2', date: writeDate(2025, 10, 20),imageFiles:1,authorNotes: '',altText: 'Panel',},
@@ -108,7 +108,7 @@ const pgData = [
 { pgNum:58, title:'2-30', date: writeDate(2025, 10, 20),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:59, title:'2-31', date: writeDate(2025, 10, 20),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:60, title:'2-32', date: writeDate(2025, 10, 20),imageFiles:1,authorNotes: '',altText: 'Panel',},
-{ pgNum:61, title:'2-33', date: writeDate(2025, 10, 20),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1100px" controls> <source src="img/end2.mp4"> </video> `,altText: '',},
+{ pgNum:61, title:'2-33', date: writeDate(2025, 10, 20),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1100px" controls> <source src="img/videos/end2.mp4"> </video> `,altText: '',},
 
 { pgNum:62, title:'3-1', date: writeDate(2025, 10, 23),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:63, title:'3-2', date: writeDate(2025, 10, 23),imageFiles:1,authorNotes: '',altText: 'Panel',},
@@ -170,7 +170,7 @@ const pgData = [
 { pgNum:119, title:'3-58', date: writeDate(2025, 10, 23),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:120, title:'3-59', date: writeDate(2025, 10, 23),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:121, title:'3-60', date: writeDate(2025, 10, 23),imageFiles:1,authorNotes: '',altText: 'Panel',},
-{ pgNum:122, title:'3-61', date: writeDate(2025, 10, 23),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1100px" controls> <source src="img/end3.mp4"> </video> `,altText: '',},
+{ pgNum:122, title:'3-61', date: writeDate(2025, 10, 23),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1100px" controls> <source src="img/videos/end3.mp4"> </video> `,altText: '',},
 
 { pgNum:123, title:'4-1', date: writeDate(2025, 12, 22),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:124, title:'4-2', date: writeDate(2025, 12, 22),imageFiles:1,authorNotes: '',altText: 'Panel',},
@@ -234,7 +234,7 @@ const pgData = [
 { pgNum:182, title:'4-60', date: writeDate(2025, 12, 22),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:183, title:'4-61', date: writeDate(2025, 12, 22),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:184, title:'4-62', date: writeDate(2025, 12, 22),imageFiles:1,authorNotes: '',altText: 'Panel',},
-{ pgNum:185, title:'4-63', date: writeDate(2025, 12, 22),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1100px" controls> <source src="img/end4.mp4"> </video> `,altText: '',},
+{ pgNum:185, title:'4-63', date: writeDate(2025, 12, 22),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1100px" controls> <source src="img/videos/end4.mp4"> </video> `,altText: '',},
 
 { pgNum:186, title:'5-1', date: writeDate(2026, 1, 29),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:187, title:'5-2', date: writeDate(2026, 1, 29),imageFiles:1,authorNotes: '',altText: 'Panel',},
@@ -282,7 +282,7 @@ const pgData = [
 { pgNum:229, title:'5-44', date: writeDate(2026, 1, 29),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:230, title:'5-45', date: writeDate(2026, 1, 29),imageFiles:1,authorNotes: '',altText: 'Panel',},
 { pgNum:231, title:'5-46', date: writeDate(2026, 1, 29),imageFiles:1,authorNotes: '',altText: 'Panel',},
-{ pgNum:232, title:'5-47', date: writeDate(2026, 1, 29),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1100px" controls> <source src="img/end5.mp4"> </video> `,altText: '',},
+{ pgNum:232, title:'5-47', date: writeDate(2026, 1, 29),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1100px" controls> <source src="img/videos/end5.mp4"> </video> `,altText: '',},
     
 { pgNum:233, title:'6-1', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
 { pgNum:234, title:'6-2', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
@@ -314,7 +314,7 @@ const pgData = [
 { pgNum:260, title:'6-28', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
 { pgNum:261, title:'6-29', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
 { pgNum:262, title:'6-30', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
-{ pgNum:263, title:'6-31', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1600px" controls> <source src="img/end6.mp4"> </video> `,altText: '',},
+{ pgNum:263, title:'6-31', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1600px" controls> <source src="img/videos/end6.mp4"> </video> `,altText: '',},
 
 { pgNum:264, title:'7-1', date: writeDate(2026, 6, 12),imageFiles:2,authorNotes: '',altText: 'Page',},
 { pgNum:265, title:'7-2', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
@@ -347,7 +347,7 @@ const pgData = [
 { pgNum:292, title:'7-29', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
 { pgNum:293, title:'7-30', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
 { pgNum:294, title:'7-31', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: '',altText: 'Page',},
-{ pgNum:295, title:'7-32', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1600px" controls> <source src="img/end7.mp4"> </video> `,altText: '',},
+{ pgNum:295, title:'7-32', date: writeDate(2026, 6, 12),imageFiles:1,authorNotes: `<video title="oh fuck yes" width="1600px" controls> <source src="img/videos/end7.mp4"> </video> `,altText: '',},
 
 ];
 

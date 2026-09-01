@@ -6,20 +6,6 @@
 //if you put anything in that div, the list of comics will get appended after it. i.e. you can put the title of that specific section as a header in that div. 
 
 
-writeArchive("chapter1",1,28,-1,true,false) //writeArchive is for listing a RANGE of pages, take advantage of this by using headers to divide them into chapters or by month
-
-writeArchive("chapter2", 29, 61, -1, true,false);
-
-writeArchive("chapter3", 62, 122, -1, true,false);
-
-writeArchive("chapter4", 123, 185, -1, true,false);
-
-writeArchive("chapter5", 186, 232, -1, true,false);
-
-writeArchive("chapter6", 233, 263, -1, true,false);
-
-writeArchive("chapter6", 264, 295, -1, true,false);
-
 
 
 //below this point is stuff you don't really need to pay attention to if you're not super familiar with JS 
@@ -99,3 +85,17 @@ function writeArchive(divClass, min, max, reverseOrder, useThumbs,useNums) {
         cellTitle.className += " leftAlignTableText";
     }
 }
+
+writeArchive("chapter1",1,28,-1,true,false) //writeArchive is for listing a RANGE of pages, take advantage of this by using headers to divide them into chapters or by month
+
+writeArchive("chapter2", 29, 61, -1, true,false);
+
+writeArchive("chapter3", 62, 122, -1, true,false);
+
+writeArchive("chapter4", 123, 185, -1, true,false);
+
+writeArchive("chapter5", 186, 232, -1, true,false);
+
+writeArchive("chapter6", 233, 263, -1, true,false);
+
+writeArchive("chapter7", 264, 295, -1, true,false);
