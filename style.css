@@ -118,7 +118,7 @@ font-family: 'serif';
   clear: right;
   float:left;
    width: 300px;
-  margin-left:20px;
+    padding-right: 20px;
 }
 
 /* specific to Characters */
@@ -130,8 +130,7 @@ font-family: 'serif';
 /* link colors */
 a {
     
-    font-family: 'serif';
-    color: #e5dbd0;
+    color: #ccb4a3;
     
     }
 .navText {
