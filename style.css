@@ -44,6 +44,42 @@ header img {
   display: table;
 }
 
+
+/* Age gate shit */
+
+.ageGate {
+    background-color:rgba(24, 22, 25, 0.94);
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+    align-content: center;
+}
+
+.testbtn {
+  font-family: 'serif';
+  background-image:url(img/Extras/pattern.avif);    
+  color: #e5dbd0;
+  margin: 3px;
+  width: 600px;
+  text-shadow: 0 0 3px #000000;
+  font-size: 35px;
+  padding: 12px;
+  border: 2px groove #d4c5b4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.testbtn:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px #ffffff;
+
+}
+
+
+
 /*FONTS*/
 
 /* header font */
