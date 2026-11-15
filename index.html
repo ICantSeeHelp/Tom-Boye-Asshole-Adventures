@@ -101,8 +101,12 @@
 
         // Check if user has already verified age
         if (localStorage.getItem("ageVerified") !== "true") {
+        overlay.style.display = "flex"; 
+        document.body.style.overflow = "hidden";
+    } else {
         overlay.style.display = "none";
-        }
+        document.body.style.overflow = "auto";
+    }
 
         yesBtn.addEventListener("click", () => {
           localStorage.setItem("ageVerified", "true");
