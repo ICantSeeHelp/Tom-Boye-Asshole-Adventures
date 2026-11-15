@@ -96,7 +96,7 @@
         const yesBtn = document.getElementById("btn-yes");
         const noBtn = document.getElementById("btn-no");
 
-        console.log(ageVerified);
+        console.log(localStorage.getItem("ageVerified"));
 
 
         // Check if user has already verified age
@@ -108,7 +108,7 @@
           localStorage.setItem("ageVerified", "true");
           overlay.style.display = "none";
           document.body.style.overflow = "auto";
-          console.log(ageVerified);
+          console.log(localStorage.getItem("ageVerified"));
 
         });
 
