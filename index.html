@@ -93,6 +93,8 @@
     const yesBtn = document.getElementById("btn-yes");
     const noBtn = document.getElementById("btn-no");
 
+    
+        
     // Check if user has already verified age
     if (localStorage.getItem("ageVerified") !== "true") {
       overlay.style.display = "none";
@@ -103,12 +105,16 @@
       localStorage.setItem("ageVerified", "true");
       overlay.style.display = "none";
       document.body.style.overflow = "auto";
+      console.log(ageVerified);
+
     });
 
     noBtn.addEventListener("click", () => {
         window.open('https://youtu.be/wg1MCgq-nHI', '_blank').focus();
     });
   });
+        
+
    </script>
     
     </body>
