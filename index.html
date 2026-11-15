@@ -1,12 +1,14 @@
 <html>
     
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>TOM BOYE ASSHOLE ADVENTURES</title>
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
     <!-- fonts -->
     <link rel="icon" type="image/png" href="img/Extras/icon.png">
+    
 </head>
     
 <body>
@@ -86,37 +88,39 @@
     <script src="js/comic_show.js" defer></script>
     <script src="js/comic_header.js" defer></script>
     <script src="js/comic_footer.js" defer></script>
+    
     <script>
     
-    document.addEventListener("DOMContentLoaded", () => {
-    const overlay = document.getElementById("age-gate-overlay");
-    const yesBtn = document.getElementById("btn-yes");
-    const noBtn = document.getElementById("btn-no");
+        document.addEventListener("DOMContentLoaded", () => {
+        const overlay = document.getElementById("age-gate-overlay");
+        const yesBtn = document.getElementById("btn-yes");
+        const noBtn = document.getElementById("btn-no");
 
-    
-        
-    // Check if user has already verified age
-    if (localStorage.getItem("ageVerified") !== "true") {
-      overlay.style.display = "none";
-      document.body.style.overflow = "hidden";
-    }
+        console.log(ageVerified);
 
-    yesBtn.addEventListener("click", () => {
-      localStorage.setItem("ageVerified", "true");
-      overlay.style.display = "none";
-      document.body.style.overflow = "auto";
-      console.log(ageVerified);
 
-    });
+        // Check if user has already verified age
+        if (localStorage.getItem("ageVerified") !== "true") {
+        overlay.style.display = "none";
+        }
 
-    noBtn.addEventListener("click", () => {
-        window.open('https://youtu.be/wg1MCgq-nHI', '_blank').focus();
-    });
-  });
+        yesBtn.addEventListener("click", () => {
+          localStorage.setItem("ageVerified", "true");
+          overlay.style.display = "none";
+          document.body.style.overflow = "auto";
+          console.log(ageVerified);
+
+        });
+
+        noBtn.addEventListener("click", () => {
+            window.open('https://youtu.be/wg1MCgq-nHI', '_blank').focus();
+        });
+      });
         
 
    </script>
     
 </body>
+    
 
 </html>
