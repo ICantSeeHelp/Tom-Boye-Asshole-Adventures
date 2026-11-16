@@ -6,11 +6,11 @@ document.querySelector(".writeHeader").innerHTML = `
         <a href="index.html"><img src="./img/Extras/logo.png" alt="" /></a> 
 
         <div id="nav">
-            <a class = "navText"onmouseover = "audioPLay()" href="index.html">COMIC</a>| 
+            <a class = "navText" href="index.html">COMIC</a>| 
             <a class = "navText" href="archive.html">ARCHIVE</a>| 
-            <a class = "navText"href="about.html">EXTRAS</a>| 
-            <a class = "navText"href="characters.html">FANART</a>|
-            <a class = "navText"href="https://ko-fi.com/icantseehelp">KOFI</a>
+            <a class = "navText" href="about.html">EXTRAS</a>| 
+            <a class = "navText" href="characters.html">FANART</a>|
+            <a class = "navText" href="https://ko-fi.com/icantseehelp">KOFI</a>
         </div>
     </header>
 `;

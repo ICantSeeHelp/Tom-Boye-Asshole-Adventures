@@ -95,7 +95,6 @@ console.log("array length - " + pgData.length);
 console.log("current page - " + pg);
 console.log("number of page segments - " + pgData[pg-1].imageFiles);
 console.log("alt text - " + `"` + pgData[pg - 1].altText + `"`);
-
 console.log("nav text - " + navText);
 console.log("nav image file extension - " + navExt);
 
@@ -103,15 +102,16 @@ function imgOrText(setImg,navTextSet) { //function that writes the indicated nav
 
   if (setImg) { //if its an image
     return `<img src="` + navFolder + `/nav_` + navText[navTextSet].toLowerCase() + `.` + navExt + `" alt="` + navText[navTextSet] + `" />`;
-  } else {
-    return navText[navTextSet];
-  }
+  } 
 }
+
+
 
 function writeNav(imageToggle) {
     let writeNavDiv = document.querySelectorAll(".writeNav");
     writeNavDiv.forEach(function(element) {
       element.innerHTML = `<div class="comicNav">
+        
         ${firstButton()}
         ${divider()}
         ${prevButton()}
@@ -122,6 +122,10 @@ function writeNav(imageToggle) {
         </div>
         `;})
 
+
+
+
+    
     function firstButton() {
         //FIRST BUTTON
         if (pg > 1) {
@@ -131,7 +135,7 @@ function writeNav(imageToggle) {
             if (!imageToggle) {
                 return imgOrText(imageToggle, 0);
             } else {
-                return ``;
+            return `<a ` + 1 + navScrollTo + `"/>` + imgOrText(imageToggle, 4) + `</a>`;
             }
         }
     }
@@ -153,7 +157,7 @@ function writeNav(imageToggle) {
             if (!imageToggle) {
                 return imgOrText(imageToggle, 1);
             } else {
-                return ``;
+            return `<a ` + 1 + navScrollTo + `"/>` + imgOrText(imageToggle, 5) + `</a>`;
             }
         }
     }
@@ -167,7 +171,7 @@ function writeNav(imageToggle) {
             if (!imageToggle) {
                 return imgOrText(imageToggle, 2);
             } else {
-                return ``;
+                return `<a ` + 1 + navScrollTo + `"/>` + imgOrText(imageToggle, 6) + `</a>`;
             }
         }
     }
@@ -181,10 +185,13 @@ function writeNav(imageToggle) {
             if (!imageToggle) {
                 return imgOrText(imageToggle, 3);
             } else {
-                return ``;
+                return `<a ` + 1 + navScrollTo + `"/>` + imgOrText(imageToggle, 7) + `</a>`;
             }
         }
     }
+    
+    
+
 }
 
 //KEYBOARD NAVIGATION
