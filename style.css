@@ -97,9 +97,9 @@ header img {
   background-image:url(img/Extras/pattern.avif);    
   color: #e5dbd0;
   margin: 3px;
-  width: 600px;
+  width: 500px;
   text-shadow: 0 0 3px #000000;
-  font-size: 35px;
+  font-size: 25px;
   padding: 12px;
   border: 2px groove #d4c5b4;
   border-radius: 5px;
@@ -118,21 +118,30 @@ header img {
 
 /* header font */
 #showComic, header, h1 {
-  font-family: 'serif';
+    
+    font-family: 'serif';
     font-size: 50px;
     color: #ffffff;
     margin: 20px;
+    text-shadow: 2px 2px #000000; 
+
 }
 
-h2 {font-family: 'serif';
-    font-size: 40px;
+h2 {
+    
+    font-family: 'serif';
+    font-size: 30px;
     color: #e5dbd0;
     margin: 0px;
-    font-weight:lighter
+    font-weight:lighter;
+    text-shadow: 2px 2px #000000; 
+
 
 }
 
-h3 {color: #e5dbd0;
+h3 {
+    
+    color: #e5dbd0;
     margin: 0px;
     font-weight:lighter
 
@@ -239,7 +248,7 @@ a {
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 700px;
+    width: 600px;
     padding: 0px;
     background-color: #000000
     
@@ -290,7 +299,7 @@ header #nav {
 }
 
 .page {
-  width: 1200px;
+  width: 1000px;
   border: solid, 5px, #000000;  
 }
 
@@ -363,12 +372,13 @@ header #nav {
 
 .caixamaisclara {
     background-color: #1f1f1f;
-    border-radius: 10px;
+    border: solid 18px black;
     align-items: center;
     justify-content: space-around;
     margin: 10px;
-    padding: 40px;
-    border: 1px solid #797979;
+    padding: 10px;
+    border-image: url(img/Extras/border.png) 20 round;
+    border-radius: 30px;
 }
 
 /* FOOTER */
