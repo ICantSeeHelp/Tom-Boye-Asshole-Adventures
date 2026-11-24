@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="img/Extras/icon.png">    <title>FANART | TOM BOYE ASSHOLE ADVENTURES</title>
+
+    <!-- style -->
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+
+</head>
+
+    <body class= "body2" align="center">
+    
+    <img src ="img/Extras/money/money%20spin.gif" style="position: absolute; z-index: 12; left: 400px;">
+    <img src ="img/Extras/money/world.gif" style="position: absolute; z-index: 1; right: 500px; top: 600px; width: 300px">
+
+     <div id = "money-overlay" class= "overlay">
+    </div>
+    
+
+    <!-- header -->
+    <div class="writeHeader"></div>
+
+    <!-- this character page kind of sucks, its more of an example of the kinds of supplementary pages you can potentially add-->
+    
+    <div class="subPage clearfix" align="center">
+        <marquee> <h3>MONEY MONEY MONEY MONEY MONEY MONEY MONEY </h3></marquee>
+
+        <img width = "1000px" src ="img/Extras/otherArt/tombucks.png">
+        <div class="fanart-Container"><img height = "300px" src ="img/Extras/money/backing-you-get-yours.gif">
+        <img height = "300px" src ="img/Extras/money/money.gif">
+        </div>
+        <h2> RE BUILD YOURE ECONMY WITH BOYE BUCKS!!1!!! PRINT THESE BAD BOYS OUT AND STICK EM EVERYHWEERE</h2>
+        <h4> hey! Tired of having to buy things with your boring old [INSERT USER CURRENCY HERE] Well... with tom bucks you could probably QUADROPLE whatever you have in ur bank account right now! tom buck are the future! print them out and use them at local vendors! get the trend going guys!</h4>
+        <h4>Now... i know my dad has tried doing something similar in the past, and well.. we all know how that turned out....</h4><iframe width="560" height="315" src="https://www.youtube.com/embed/Shxiy7l5b_4?si=kGXYFu0HZGjoEWAR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h4>Well im here to assure that tom boye bucks will NOT suffer the same fate. Why? well- uh- because im hot! everyone likes hot boys. look- next time you're pulled over by the cops, wave a tom buck in their face! theyll love it! Ive been paying everyresturant ive gone to with tom bucks for a while now and they get so overwhelmed and flustered they bury their face in their hands and ask me to leave!</h4>
+        
+        <h4>Dont use the crust old currency of [INSERT USER CURRENCY HERE]. Be Soney mart. I mean Money Smart.
+        Use TOM BUCKS.</h4>
+        
+    </div>
+    
+    
+    <script>
+    
+        document.addEventListener("DOMContentLoaded", () => {
+        const overlay = document.getElementById("money-overlay");
+        const yesBtn = document.getElementById("btn-yes");
+        const noBtn = document.getElementById("btn-no");
+
+
+
+
+        overlay.addEventListener("click", () => {
+            let audio = new Audio("sounds/money.mp3");
+            audio.play()        
+            overlay.style.display = "none"; 
+        
+        
+        
+        });
+                
+
+      });
+        
+    
+        
+        
+        
+
+   </script>
+    <!-- footer -->
+    <div class="writeFooter"></div>
+
+<!-- at the end of this page we only call the header and footer scripts, because we don't need use any functions from the other scripts. -->
+<script src="js/comic_header.js" defer></script>
+<script src="js/comic_footer.js" defer></script>
+</body>
+    <div class="moneybg"></div> 
+
+</html>

@@ -7,6 +7,10 @@
     font-family: 'Serif';
     src: url(Vulcant.otf);}
 
+@font-face {
+    font-family: 'Cursive';
+    src: url(ComicSansMS.tff);}
+
 body, div, main, section, article {
   box-sizing: border-box; 
 }
@@ -27,7 +31,7 @@ body {
      background-attachment: fixed;
      background-color: #000000;
      background-position: center;
-     background-image:url(img/tomboyesite.png);    
+     background-image:url(img/tomboyesite2.png);    
 
 }
 
@@ -57,6 +61,36 @@ header img {
     z-index:1000;
     align-content: center;
 }
+
+.moneybg{
+
+    background-image: url(img/Extras/money/money%20rain.gif);
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:-100;
+
+    align-content: center;
+    pointer-events: none;
+    background-size: auto;
+
+}
+
+.overlay {
+    background-color:rgba(255, 255, 255, 0);
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+    align-content: center;
+}
+
+
+
 
 .testbtn {
   font-family: 'serif';
@@ -104,6 +138,11 @@ h3 {color: #e5dbd0;
 
 }
 
+h4 {
+    font-size: 20px;
+    font-family:cursive;
+}
+
 /* body font */
 .subPage p, footer, #authorNotes, .archiveTable {
 font-family: 'serif';
@@ -123,9 +162,20 @@ font-family: 'serif';
   padding: 0px 12px 12px;
 }
 
+.news {
+  width: 1500px;
+  max-width: 98%;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 0px 12px 12px;
+}
+
 .fanart-container {
   display: flex;
 }
+
+
+
 .left 
 {
    padding: 20px;
@@ -173,6 +223,16 @@ a {
     font-size: 50px;
 }
 
+.moneyText {
+    font-size: 50px;
+}
+
+.moneyText:hover {
+    font-size: 50px;
+    color: #9cbc60;
+}
+
+
 .temp {
     border: 2px solid #e5dbd0;
     margin: auto;
@@ -180,8 +240,8 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 700px;
-   
     padding: 0px;
+    background-color: #000000
     
 }
 .bar {
@@ -200,10 +260,10 @@ a:hover {
 
 /* HEADER */
 header #nav {
-  background-color: #000000;
   font-size: 20px;
-  width: 600px;
+  width: 900px;
   margin: auto;
+  text-shadow: 2px 2px #000000; 
     
 }
 
