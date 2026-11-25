@@ -2,6 +2,9 @@
   HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
+* {
+  cursor: url('https://cdn.cursors-4u.net/css-previews/the-elders-scroll-skyrim-background-bc41a8f8-css.webp') 2 2, auto !important;
+}
 
 @font-face {
     font-family: 'Serif';
@@ -35,6 +38,16 @@ body {
 
 }
 
+
+.body3 {
+     margin: 0;
+     background-size:cover;
+     background-attachment: fixed;
+     background-color: #000000;
+     background-position: center;
+     background-image:url(img/tomboyesite3.png);    
+
+}
 /* header image */
 header img {
   width: 500px;
@@ -181,18 +194,60 @@ font-family: 'serif';
 
 .fanart-container {
   display: flex;
+  justify-content: center;
+
 }
 
+/*----------------------- IMG GALLERY SHIT  */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}       
+
+  .responsive {
+      float: left;
+      width: 49.9%;
+}
+
+@media only screen and (max-width: 950px) {
+  .responsive {
+    width: 99.99999%;
+  }
+}
+
+
+.galImage{
+  border: 1px solid #ccc;
+  width: 90%;
+  transition: filter 0.5s ease;
+
+  filter: grayscale(95%);
+  transition: width 0.5s ease;
+
+
+
+}
+
+
+.galImage:hover{
+  filter: grayscale(00%);
+  width: 100%;
+  
+}
 
 
 .left 
 {
    padding: 20px;
+    width: 536px;
 }
 
 .right 
 {
   padding: 20px;
+        width: 536px;
+
 }
 
 .subPage:not(.archivePage) {
@@ -212,7 +267,7 @@ font-family: 'serif';
 .rightPic {
   clear: right;
   float:left;
-   width: 300px;
+   width: 200px;
     padding-right: 20px;
 }
 
@@ -246,9 +301,7 @@ a {
     border: 2px solid #e5dbd0;
     margin: auto;
     border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 600px;
+    width: auto;
     padding: 0px;
     background-color: #000000
     
