@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABOUT | TOM BOYE ASSHOLE ADVENTURES</title>    <link rel="icon" type="image/png" href="img/Extras/icon.png">
+    <title>EXTRAS | TOM BOYE ASSHOLE ADVENTURES</title>    <link rel="icon" type="image/png" href="img/Extras/icon.png">
 
     <!-- style -->
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
@@ -15,9 +15,9 @@
     
 <body class="body3">
     
- <div id = "age-gate-overlay" class= "ageGate">
+<div id = "age-gate-overlay" class= "ageGate">
       
-    <div class = "temp">
+    <div class = "tempAge">
         <div class="bar">
                             
               <h1>STOP!!! WAIT, FUCKKK STOOPPP!!!</h1>
@@ -54,11 +54,65 @@
     </div>
 </div>
     
-    <!-- header -->
+
+    
+<div id="musicplayer">
+        
+    <table class="controls">
+            <tbody><tr>
+                <td>
+                    <div class="prev-track" onclick="prevTrack()">
+                    <img class="ctrlimg" src="https://file.garden/Zztv0a9yEhr5pmEq/back.png"></div>
+                </td>
+                <td>
+                    <div class="playpause-track" onclick="playpauseTrack()">
+                    <img class="ctrlimg" src="https://file.garden/Zztv0a9yEhr5pmEq/play.png"></div>
+                </td>
+                <td>
+                    <div class="next-track" onclick="nextTrack()">
+                    <img class="ctrlimg" src="https://file.garden/Zztv0a9yEhr5pmEq/next.png"></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+ <div>
+            <marquee scrollamount="8" class="songtitle">playing 1 of 6: KA NA SHI MI NO A N JI - GOATBED</marquee>
+        </div>
+        <div class="seeking">
+            <div class="current-time">0:00</div>
+ 
+            <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+ 
+            <div class="total-duration">4:00</div>
+        </div>
+    
+    
+    
+        <div class="slider_container">
+
+              <i class="fa fa-volume-down"></i>
+              <input type="range" min="0" max="30" value="10" class="volume_slider" onchange="setVolume()">
+              <i class="fa fa-volume-up"></i>
+        </div>
+    
+        <audio id="music" src="https://dl.dropbox.com/scl/fi/218tl1h97unr5jkscrmr0/KA-NA-SHI-MI-NO-A-N-JI-GOATBED-4.mp3?rlkey=jmwjbkk8svkqv4wv846dur0c5&amp;st=vrheuavo&amp;dl=0"></audio> 
+    
+    
+</div>   
+    
+<br>    
+    
+    
     
     <div class="writeHeader"></div>
 
     <div class="news clearfix" align="center">
+              <h2>Tom Boye Asshole Adventures was made by ICantSeeHelp,<br> You can find me here!</h2>
+
+        <a href="https://icantseehelp.newgrounds.com/" target="_blank" id="play2"><img class = "icon" src  = "img/Extras/ng.png"></a>
+        <a href="https://bsky.app/profile/icantseehelp.newgrounds.com" target="_blank" id="play2"><img class = "icon" src  = "img/Extras/blusky.png"></a>
+        <a href="https://www.youtube.com/@ICSH_NG" target="_blank" id="play2"><img class = "icon" src  = "img/Extras/yt.png"></a>
 
      <div class = "fanart-container"> 
        <div class ="left">
@@ -160,18 +214,18 @@
             <div class="caixamaisclara">
             <div class="gallery">  
                 
-                <div class="responsive"><a href ="img/Extras/otherArt/castle%20boy.png"><img class ="galImage" src="img/Extras/otherArt/castle%20boy.png"></a></div>
-                <div class="responsive"><a href ="img/Extras/otherArt/tom%20boye%20asshole%20adventures.png"><img class ="galImage" src="img/Extras/otherArt/tom%20boye%20asshole%20adventures.png"></a></div>
-                <div class="responsive"><a href ="img/Extras/otherArt/blood%20boye.png"><img class ="galImage" src="img/Extras/otherArt/blood%20boye.png"></a></div>
-                <div class="responsive"><a href ="img/Extras/otherArt/californa%20tom.png"><img class ="galImage" src="img/Extras/otherArt/californa%20tom.png"></a></div>
-                <div class="responsive"><a href ="img/Extras/otherArt/elanore.png"><img class ="galImage" src="img/Extras/otherArt/elanore.png"></a></div>
-                <div class="responsive"><a href ="img/Extras/otherArt/promo.png"><img class ="galImage" src="img/Extras/otherArt/promo.png"></a></div>
-                <div class="responsive"><a href ="img/Extras/otherArt/thats%20cool2.png"><img class ="galImage" src="img/Extras/otherArt/thats%20cool2.png"></a></div>
-                <div class="responsive"><a href ="img/Extras/otherArt/tom%20boye%20asshole.png"><img class ="galImage" src="img/Extras/otherArt/tom%20boye%20asshole.png"></a></div>
-                <div class="responsive"><a href ="img/Extras/otherArt/tomboye%20collab.png"><img class ="galImage" src="img/Extras/otherArt/tomboye%20collab.png"></a> <H3> ^^ This piece is a collab between me and <a href="twilight-possum.bsky.social">TwilightPossum!</a></H3></div>
-                <div class="responsive"><a href ="img/Extras/otherArt/tom%20boye%20maybe%20too%20i%20cant%20see.png"><img class ="galImage" src="img/Extras/otherArt/tom%20boye%20maybe%20too%20i%20cant%20see.png"></a></div>
-                <div class="responsive"><a href ="img/Extras/otherArt/tom%20pride.png"><img class ="galImage" src="img/Extras/otherArt/tom%20pride.png"></a></div>
-                <div class="responsive"><a href ="img/Extras/otherArt/tomboye%20ass.png"><img class ="galImage" src="img/Extras/otherArt/tomboye%20ass.png"></a></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/castle%20boy.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/castle%20boy.png"></a></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/tom%20boye%20asshole%20adventures.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/tom%20boye%20asshole%20adventures.png"></a></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/blood%20boye.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/blood%20boye.png"></a></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/californa%20tom.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/californa%20tom.png"></a></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/elanore.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/elanore.png"></a></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/promo.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/promo.png"></a></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/thats%20cool2.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/thats%20cool2.png"></a></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/tom%20boye%20asshole.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/tom%20boye%20asshole.png"></a></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/tomboye%20collab.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/tomboye%20collab.png"></a> <H3> ^^ This piece is a collab between me and <a href="twilight-possum.bsky.social">TwilightPossum!</a></H3></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/tom%20boye%20maybe%20too%20i%20cant%20see.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/tom%20boye%20maybe%20too%20i%20cant%20see.png"></a></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/tom%20pride.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/tom%20pride.png"></a></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/tomboye%20ass.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/tomboye%20ass.png"></a></div>
 
 
 
@@ -181,13 +235,13 @@
 
                 <br>
                 <h3>Also now including PORNO!!</h3>
-                <video controls ="true" width = "100%" src="img/Extras/otherArt/AnimationProjfull.mp4"></video>
+                <video controls ="true" class ="nsfw" width = "100%" src="img/Extras/otherArt/AnimationProjfull.mp4"></video>
                 <h3>voiced by the very talented <a href="https://x.com/GloomyMika">Gloomy Mika</a>!</h3>
                 
                 
                 
-                 <div class="responsive"><a href ="img/Extras/otherArt/imp.png"><img class ="galImage" src="img/Extras/otherArt/imp.png"></a></div>
-                <div class="responsive"><a href ="img/Extras/otherArt/imptone.png"><img class ="galImage" src="img/Extras/otherArt/imptone.png"></a></div>
+                 <div class="responsive"><a href ="img/Extras/otherArt/imp.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/imp.png"></a></div>
+                <div class="responsive"><a href ="img/Extras/otherArt/imptone.png" target ="_blank"><img class ="galImage" src="img/Extras/otherArt/imptone.png"></a></div>
                 <h3>Here are some super early tom boyes! back when he was an imp instead of a vampire... he also tits for some reason</h3>
                 </div>
                 
@@ -196,20 +250,7 @@
         
         <img width="100%" src="img/ZLFUSHXZ7FVF4TQBWEDWQJBKNJVLJ5JX.gif">
      
-    <div class = "temp" width = "100px">
-         <h1>Hi im icantseehelp
-        i made tom boye :D</h1>
-            <div class="caixamaisclara">
-                
-                <h2>NEWGROUNDS</h2>
-                <h2>BLUSKY</h2>
-                <h2>KAMTAPE</h2>
-                <h2>YOUTUBE</h2>
-                
-                
-        </div>
-    </div>
-         
+
          
     </div>
          
@@ -226,7 +267,7 @@
 <!-- at the end of this page we only call the header and footer scripts, because we don't need use any functions from the other scripts. -->
 <script src="js/comic_header.js" defer></script>
 <script src="js/comic_footer.js" defer></script>
- <script>
+<script>
     
         document.addEventListener("DOMContentLoaded", () => {
         const overlay = document.getElementById("age-gate-overlay");
@@ -260,6 +301,214 @@
         
 
    </script>
+<script>
+        // initiate variables
+        let track_name = document.querySelector(".songtitle");
+        let playpause_btn = document.querySelector(".playpause-track");
+        let next_btn = document.querySelector(".next-track");
+        let prev_btn = document.querySelector(".prev-track");
+        let seek_slider = document.querySelector(".seek_slider");
+        let curr_time = document.querySelector(".current-time");
+        let total_duration = document.querySelector(".total-duration");
+        let volume_slider = document.querySelector(".volume_slider");
+        let track_index = 0;
+        let isPlaying = false;
+        let updateTimer;
+        
+        // create new audio element
+        let curr_track = document.getElementById("music");
+        
+        //
+        // DEFINE YOUR SONGS HERE!!!!!
+        // MORE THAN FOUR SONGS CAN BE ADDED!!
+        // JUST ADD ANOTHER BRACKET WITH NAME AND PATH
+        // CATBOX.MOE IS RECOMMENDED FOR UPLOADING MP3 FILES
+        let track_list = [
+           
+            
+            {
+                name:"Hadko - Waltz for the Dead Clown",
+                path:"https://dl.dropbox.com/scl/fi/n4jut0wne5wsijkyfq7ma/Hakdo-Waltz-for-the-Dead-Clown.mp3?rlkey=z4tk1d9bpadpizcaxwdtkvu78&st=otwza48f&dl=0"
+              
+            },
+          
+            
+            
+            
+            {   
+               name:"MALICE MIZER - Gardenia",
+                path:"https://dl.dropbox.com/scl/fi/3qdosh3bl6zpquqjt3ijk/MALICE-MIZER-Gardenia.mp3?rlkey=d32378flx96uo4kwrx5k7u4ky&st=ksgo5hm8&dl=0",
+                
+            },
+            { name:"Versailles - ASCENDEAD MASTER",
+                path:"https://dl.dropbox.com/scl/fi/akxwym39aty7t1p96u3ej/Versailles-ASCENDEAD-MASTER.mp3?rlkey=2p6ggopsuxdoc2vhx0i1rnsim&st=cewimdwf&dl=0", 
+               
+            },
+            { name:"My Upside Down - Kepp This Between Us",
+                path:"https://dl.dropbox.com/scl/fi/s6z9kv5bxam491yxby1xx/OnlyMP3.to-My-Upside-Down-Keep-This-Between-Us-_-lyrics.mp3?rlkey=2fck77eqtt2r5d6gvymlu6w2f&st=6xmcjykc&dl=0", 
+               
+            },
+            
+             
+            {
+              name: "MALICE MIZER - Au Revoir",
+                path: "https://dl.dropbox.com/scl/fi/tblvs2fg8xww76ui4nzs5/OnlyMP3.to-MALICE-MIZER-_-au-revoir.mp3?rlkey=tf6bge1sdrndug2ppk8qvwsf2&st=oc0i5ig3&dl=0",  
+            },
+            
+            { 
+               name:"ブルーベジー - deadman",
+                path:"https://dl.dropbox.com/scl/fi/jp70lj9my6jw19bu1vdv8/Deadman-Blue-Page-4.mp3?rlkey=pp0ea6ww0snqfg89q8ffjzeju&st=9bn5egsp&dl=0", 
+            },
+          
+            
+        
+             
+             
+        ];
+        //
+        //
+        //
+        //
+        //
+          vid = document.getElementById("music");
+                              vid.volume = 0.2; 
+                              
+           function setVolume() {
+            // Set the volume according to the
+            // percentage of the volume slider set
+           
+            curr_track.volume = volume_slider.value / 100;
+          }
+          
+                              
+        function loadTrack(track_index) {
+            clearInterval(updateTimer);
+            resetValues();
+ 
+            // load a new track
+            curr_track.src = track_list[track_index].path;
+            curr_track.load();
+            
+            // update details of the track
+            track_name.textContent = "playing " + (track_index + 1) + " of " + track_list.length + ": " + track_list[track_index].name;
+ 
+            // set an interval of 1000 milliseconds for updating the seek slider
+            updateTimer = setInterval(seekUpdate, 1000);
+            
+            // move to the next track if the current one finishes playing 
+            curr_track.addEventListener("ended", nextTrack);
+        }
+ 
+        // reset values
+        function resetValues() {
+            curr_time.textContent = "0:00";
+            total_duration.textContent = "0:00";
+            seek_slider.value = 0;
+        }
+ 
+        // checks if song is playing
+        function playpauseTrack() {
+            if (!isPlaying) playTrack();
+            else pauseTrack();
+        }
+ 
+        // plays track when play button is pressed
+        function playTrack() {
+            curr_track.play();
+            isPlaying = true;
+            
+            // replace icon with the pause icon
+            playpause_btn.innerHTML = '<img class="ctrlimg" src="img/Extras/pause.png"></div>';
+        }
+ 
+        // pauses track when pause button is pressed
+        function pauseTrack() {
+            curr_track.pause();
+            isPlaying = false;
+            
+            // replace icon with the play icon
+            playpause_btn.innerHTML = '<img class="ctrlimg" src="img/Extras/play.png"></div>';
+        }
+ 
+        // moves to the next track
+        function nextTrack() {
+            if (track_index < track_list.length - 1)
+                track_index += 1;
+            else track_index = 0;
+            loadTrack(track_index);
+            playTrack();
+        }
+ 
+        // moves to the previous track
+        function prevTrack() {
+            if (track_index > 0)
+                track_index -= 1;
+            else track_index = track_list.length;
+            loadTrack(track_index);
+            playTrack();
+        }
+ 
+        // seeker slider
+        function seekTo() {
+            seekto = curr_track.duration * (seek_slider.value / 100);
+            curr_track.currentTime = seekto;
+        }
+ 
+        function seekUpdate() {
+            let seekPosition = 0;
+            
+            // check if the current track duration is a legible number
+            if (!isNaN(curr_track.duration)) {
+                seekPosition = curr_track.currentTime * (100 / curr_track.duration);
+                seek_slider.value = seekPosition;
+                
+            // calculate the time left and the total duration
+            let currentMinutes = Math.floor(curr_track.currentTime / 60);
+            let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
+            let durationMinutes = Math.floor(curr_track.duration / 60);
+            let durationSeconds = Math.floor(curr_track.duration - durationMinutes * 60);
+                
+            // adding a zero to the single digit time values
+            if (currentSeconds < 10) { currentSeconds = "0" + currentSeconds; }
+            if (durationSeconds < 10) { durationSeconds = "0" + durationSeconds; }
+            if (currentMinutes < 10) { currentMinutes = currentMinutes; }
+            if (durationMinutes < 10) { durationMinutes = durationMinutes; }
+ 
+            curr_time.textContent = currentMinutes + ":" + currentSeconds;
+            total_duration.textContent = durationMinutes + ":" + durationSeconds;
+          }
+        }
+        
+        
+        loadTrack(track_index);
+        // load the first track in the tracklist--------------------------------
+        
+    
+    
+          const links2 = document.querySelectorAll('#play2')
+          links2.forEach((play2) => {
+
+          play2.addEventListener("mouseover", playHover2);
+
+          })
+
+
+
+    let play2 = document.getElementById("play2");
+
+    
+    function playHover2() {
+    
+        let audio = new Audio("sounds/hover2.mp3");
+        audio.play()
+          }
+
+
+    
+    
+    
+    
+</script>
     
     
     

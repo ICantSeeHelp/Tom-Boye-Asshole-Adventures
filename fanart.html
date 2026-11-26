@@ -13,6 +13,46 @@
 </head>
 <body align="center">
 
+ <div id = "age-gate-overlay" class= "ageGate">
+      
+    <div class = "tempAge">
+        <div class="bar">
+                            
+              <h1>STOP!!! WAIT, FUCKKK STOOPPP!!!</h1>
+        </div>
+
+        <div align="center" class = "caixamaisclara">   
+    
+    
+            <img width = "200px" src="img/warn.png">
+    
+            <h3>This webpage contains a lot of a Crudely drawn <i>Naked Vampire Boy Penis.</i> By entering you confirm that you are atleast 18 years old or more. <br>Do you dare enter? (reminder: there are naked penis drawings) </h3>
+    
+            <br>
+    
+
+    
+            <button id = "btn-yes" class="testbtn">I have lived long enough, 
+        
+            <br>Show me the Penis. (I am 18)
+            
+            </button>
+
+    
+        
+            <button id = "btn-no" class="testbtn">I am a little lad, and wish not to be <br>exposed to the horrors. (I am not 18)</button>
+            
+            <h3>btw if you've had to insert an answer for everytime youve clicked on a page sorry lmao i am learning java and i dont know how local storage works, it will be fixed soon mwah~ thank you</h3>
+    
+
+    
+        </div>
+      
+   
+    </div>
+</div>
+    
+    
     <!-- header -->
     <div class="writeHeader"></div>
 
@@ -31,8 +71,8 @@
                 
                 <a href="https://bsky.app/profile/realfakegibbs.bsky.social"><h2> Gibbs From BluSky</h2></a>
                 <a href="img/fanart/bafkreia3w7hv5cqhtg2ojz65orwfbafro6mvein7oj2ei5baaemsinin4q.webp"><img width = "400px" src="img/fanart/bafkreia3w7hv5cqhtg2ojz65orwfbafro6mvein7oj2ei5baaemsinin4q.webp"></a>
-                <img width = "400px" src="img/fanart/IMG_0185.jpg">
-                <img width = "400px" src="img/fanart/gibbs2.jpg">
+                <a href="img/fanart/IMG_0185.jpg"><img width = "400px" src="img/fanart/IMG_0185.jpg"></a>
+                <a href="img/fanart/gibbs2.jpg"><img width = "400px" src="img/fanart/gibbs2.jpg"></a>
 
 
                 <a href="https://ArtistsGrim.newgrounds.com/"><h2> ArtistsGrim From Grillie Studios</h2></a>
@@ -49,7 +89,8 @@
                 
                 <a href="https://crockettdk.newgrounds.com/"><h2> CrockettDK From Newgrounds </h2> </a>
                 <img width = "400px" src="img/fanart/cjspellsfish2.png">
-    
+                <img width = "400px" src="img/fanart/crockkettDK.png">
+                <img width = "400px" src="img/fanart/crockkettDK2.png">
                 
                 <a href="https://igwanasuchus.newgrounds.com/"><h2> IgwanaSuchus From Newgrounds </h2> </a>
                 <img width = "400px" src="img/fanart/igwana.webp">
@@ -64,8 +105,12 @@
                 <img width = "400px" src="img/fanart/7429753_2906755_bobomb121_untitled-7429753.2deb68f13c06337c3d51d763fe2a7c1f.webp">
                 
                 <a href="https://galballin.newgrounds.com/"><h2> Galballin From Newgrounds</h2></a>
-                <img width = "400px" src="img/fanart/cjspellsfish.PNG">
-                <img width = "400px" src="img/fanart/cjspellsfish4.png">
+                <a href ="img/fanart/cjspellsfish.PNG"><img width = "400px" src="img/fanart/cjspellsfish.PNG"></a>
+                <a href="img/fanart/cjspellsfish4.png"><img width = "400px" src="img/fanart/cjspellsfish4.png"></a>
+                <a href="img/fanart/cjspellsfish5.png"><img width = "400px" src="img/fanart/cjspellsfish5.png"></a>
+                <a href="img/fanart/cjspellsfish6.png"><img width = "400px" src="img/fanart/cjspellsfish6.png"></a>
+                <a href="img/fanart/cjspellsfish7.png"><img width = "400px" src="img/fanart/cjspellsfish7.png"></a>
+
                 
                 <a href="https://doxuar.newgrounds.com/"> <h2>Doxuar From Newgrounds</h2></a>
                 <img width = "400px" src="img/fanart/Proto1.png">
@@ -108,6 +153,40 @@
 <!-- at the end of this page we only call the header and footer scripts, because we don't need use any functions from the other scripts. -->
 <script src="js/comic_header.js" defer></script>
 <script src="js/comic_footer.js" defer></script>
+<script>
+    
+        document.addEventListener("DOMContentLoaded", () => {
+        const overlay = document.getElementById("age-gate-overlay");
+        const yesBtn = document.getElementById("btn-yes");
+        const noBtn = document.getElementById("btn-no");
+
+        console.log(localStorage.getItem("ageVerified"));
+
+
+        // Check if user has already verified age
+        if (localStorage.getItem("ageVerified") !== "true") {
+        overlay.style.display = "flex"; 
+        document.body.style.overflow = "hidden";
+    } else {
+        overlay.style.display = "none";
+        document.body.style.overflow = "auto";
+    }
+
+        yesBtn.addEventListener("click", () => {
+          localStorage.setItem("ageVerified", "true");
+          overlay.style.display = "none";
+          document.body.style.overflow = "auto";
+          console.log(localStorage.getItem("ageVerified"));
+
+        });
+
+        noBtn.addEventListener("click", () => {
+            window.open('https://youtu.be/wg1MCgq-nHI', '_blank').focus();
+        });
+      });
+        
+
+</script>
 </body>
 
 </html>
